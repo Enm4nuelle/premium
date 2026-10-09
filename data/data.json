@@ -34,11 +34,6 @@
                         "text": "Tours",
                         "href": "/tours",
                         "sublinks": ""
-                    },
-                    {
-                        "text": "Nosotros",
-                        "href": "/nosotros",
-                        "sublinks": ""
                     }
                 ],
                 "buttonContact": ""
