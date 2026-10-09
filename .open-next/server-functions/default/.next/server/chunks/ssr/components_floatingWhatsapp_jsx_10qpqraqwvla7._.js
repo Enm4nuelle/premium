@@ -1,3 +1,0 @@
-module.exports=[11031,a=>{"use strict";var b=a.i(87924),c=a.i(50944);a.s(["default",0,a=>{let d=(0,c.usePathname)();if(a.data.allPagesMantain||a.data.pageMantain===d)return(0,b.jsx)(b.Fragment,{});let e=`https://wa.me/${a.data.number}?text=${encodeURIComponent(a.data.defaultMessage)}`;return(0,b.jsx)("aside",{className:"floatingWhatsapp "+(a.data.showOnlyOnMobile?"floatinWhatsapp-onlyMobile":""),children:(0,b.jsx)("a",{href:e,target:"_blank",rel:"noopener noreferrer",className:"floatingWhatsapp","aria-label":"WhatsApp",title:"Contáctanos por WhatsApp",children:(0,b.jsx)("i",{className:"fa fa-brands fa-whatsapp","aria-hidden":"true"})})})}])}];
-
-//# sourceMappingURL=components_floatingWhatsapp_jsx_10qpqraqwvla7._.js.map
