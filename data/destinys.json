@@ -1,0 +1,58 @@
+{
+    "locations": [
+        {
+            "idLocation": 1,
+            "name": "Tarapoto",
+            "img": "/img/imagenesDestinos/tarapoto/imagen1.webp"
+        },
+        {
+            "idLocation": 2,
+            "name": "Ica",
+            "img": "/img/imagenesDestinos/ica/imagen1.webp"
+        }
+    ],
+    "destinys": [
+        {
+            "idDestiny": 1,
+            "idLocation": 1,
+            "name": "Lamas Nativo",
+            "img": "/img/imagenesDestinos/tarapoto/lamasNativo/foto1.webp"
+        },
+        {
+            "idDestiny": 2,
+            "idLocation": 1,
+            "name": "Laguna Azul",
+            "img": "/img/imagenesDestinos/tarapoto/lagunaAzul/foto1.webp"
+        },
+        {
+            "idDestiny": 3,
+            "idLocation": 1,
+            "name": "Alto Mayo",
+            "img": "/img/imagenesDestinos/tarapoto/altoMayo/foto1.webp"
+        },
+        {
+            "idDestiny": 4,
+            "idLocation": 1,
+            "name": "Ahuashiyacu",
+            "img": "/img/imagenesDestinos/tarapoto/ahuashiyacu/foto1.webp"
+        },
+        {
+            "idDestiny": 5,
+            "idLocation": 2,
+            "name": "Paracas",
+            "img": "/img/imagenesDestinos/ica/paracas/foto1.webp"
+        },
+        {
+            "idDestiny": 6,
+            "idLocation": 2,
+            "name": "Oasis de Huacachina",
+            "img": "/img/imagenesDestinos/ica/oasisHuacachina/foto1.webp"
+        },
+        {
+            "idDestiny": 7,
+            "idLocation": 2,
+            "name": "Santuario Señor de Luren",
+            "img": "/img/imagenesDestinos/ica/senorLuren/foto1.webp"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0cz1d0mv5g_q7.js"
+  ],
+  "lowPriorityFiles": [
+    "static/MTyejx7OmdssG1En3gV-q/_buildManifest.js",
+    "static/MTyejx7OmdssG1En3gV-q/_ssgManifest.js",
+    "static/MTyejx7OmdssG1En3gV-q/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/1x6obpmlu1_c2.js",
+    "static/chunks/1-nqmp1rl8kqt.js",
+    "static/chunks/3dmm3v_fq28gc.js",
+    "static/chunks/202m4j7cuyvzq.js",
+    "static/chunks/turbopack-3-ry682tkyiqk.js"
+  ],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {
+    "/_not-found/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/_global-error/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(main)/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(main)/arma-tu-plan/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(main)/nosotros/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(main)/tours/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(main)/tours/[promo]/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/1-nqmp1rl8kqt.js",
+        "static/chunks/3dmm3v_fq28gc.js",
+        "static/chunks/202m4j7cuyvzq.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    }
+  },
+  "chunkLoadingGlobal": "TURBOPACK"
+}

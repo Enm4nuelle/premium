@@ -34,6 +34,11 @@
                         "text": "Tours",
                         "href": "/tours",
                         "sublinks": ""
+                    },
+                    {
+                        "text": "Arma tu Plan",
+                        "href": "/arma-tu-plan",
+                        "sublinks": ""
                     }
                 ],
                 "buttonContact": ""
