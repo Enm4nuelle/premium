@@ -735,8 +735,10 @@
                 "isAfterHeader": true,
                 "nameId": "#promoDetail",
                 "labelOption": "",
-                "labelCourtesys": "Cortesías: ",
-                "labelIncludes": "Incluye: ",
+                "labelCourtesys": "Incluye: ",
+                "labelIncludes": "Itinerario: ",
+                "labelExtras": "Adicionales: ",
+                "labelRecommendations": "Recomendaciones: ",
                 "labelCheckin": "Check-in: ",
                 "labelCheckout": "Check-out: ",
                 "labelPromoDisponibility": "Promoción Sujeta a Disponibilidad",
@@ -778,26 +780,24 @@
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
-                "nameId": "#ourTravelsItinerary",
+                "nameId": "#toursInicio",
                 "subTitle": "Conoce",
-                "title": "MÁS TOURS",
-                "priceDescription": "Desde:",
+                "title": "NUESTROS TOURS",
+                "priceDescription": "A solo:",
                 "loop": true,
                 "autoplay": false,
                 "isDoneText": "",
-                "textNoSelect": "Escoge un itinerario para ver la aventura.",
-                "nameIdItinerary": "#itinerarysDetail",
                 "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 60,
                 "durationAnimationHeader": 1000,
                 "delayAnimationHeader": "",
                 "travels": [
                     {
-                        "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
-                        "titlePart1": "3 días",
-                        "titlePart2": "2 noches",
-                        "duration": "Fin de semana perfecto",
-                        "price": "S/. 140",
+                        "img": "/img/imagenesPromociones/2dias/imagenPromocion.jpg",
+                        "titlePart1": "2 días",
+                        "titlePart2": "Lamas Nativo",
+                        "duration": "Laguna Azul",
+                        "price": "S/. 145",
                         "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
@@ -806,25 +806,25 @@
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
-                        "titlePart1": "4 días",
-                        "titlePart2": "3 noches",
-                        "duration": "Descanso Perfecto",
-                        "price": "S/. 210",
+                        "img": "/img/imagenesPromociones/3dias/imagenPromocion.jpg",
+                        "titlePart1": "3 días",
+                        "titlePart2": "Ahuashiyacu",
+                        "duration": "Lamas Nativo, Laguna Azul",
+                        "price": "S/. 195",
                         "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/tours",
-                        "slug": "tarapoto-3dias", 
+                        "slug": "tarapoto-3dias",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
-                        "titlePart1": "Celebración Especial",
-                        "titlePart2": "",
-                        "duration": "Recuerdos inolvidables",
-                        "price": "S/. 210",
-                        "lowText": "Para tus vacaciones soñadas",
+                        "img": "/img/imagenesPromociones/4dias/imagenPromocion.jpg",
+                        "titlePart1": "4 días",
+                        "titlePart2": "Alto Mayo",
+                        "duration": "Ahuashiyacu, Lamas Nativo, Laguna Azul",
+                        "price": "S/. 294",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/tours",
@@ -833,7 +833,20 @@
                     }
                 ]
             },
-            "order": 5
+            "order": 10
+        }
+    ],
+    "pagesArmarPlan":[
+        {
+            "title": "ARMAR PLAN",
+            "href": "#buildPlan",
+            "pageName": "BuildPlan",
+            "showInMenu": false,
+            "data":{
+                "isMainH1": true,
+                "isAfterHeader": true
+            },
+            "order": 2
         }
     ]
 }

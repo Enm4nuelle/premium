@@ -1,5 +1,3 @@
-"use client";
-
 import JsonData from "../../data/data.json";
 import ImgWithMessage from "@/components/imgWithMessage";
 import Carrousel from "@/components/carrousel";

@@ -5,66 +5,81 @@
             "slug": "tarapoto-2dias",
             "active": true,
             "title": "TOUR DE 2 DÍAS",
-            "description": "Disfruta una noche diferente en Rancho Roma y déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
-            "messageWhatsapp": "Hola, quisiera reservar mi tour de 2 días con Premium.",
+            "description": "Conoce la cultura nativa de Lamas y disfruta de la Laguna Azul con paseo en bote y a caballo, degustación de tragos y almuerzo a la carta. Recojo del hotel, movilidad y guía incluidos. Desde S/ 145 por persona.",
+            "messageWhatsapp": "Hola, quisiera reservar el tour de 2 días (Lamas Nativo y Laguna Azul) con Premium Events.",
             "options": [
                 {
-                    "title": "DÍA 1 - LAMAS NATIVO",
-                    "img": "/img/imagenesPromociones/nocheEspecial/opcion1.webp",
-                    "altImg": "Noche Especial Rancho Roma",
+                    "title": "DÍA 1 - LAMAS NATIVO (HALF DAY)",
+                    "img": "/img/imagenesPromociones/2dias/opcion1.jpg",
+                    "altImg": "Tour Lamas Nativo en Tarapoto",
                     "courtesys": [
-                        "Ingreso gratuito para una pareja",
-                        "Uso ilimitado de la piscina",
-                        "Hasta 50% de descuento en traslado compartido"
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al castillo"
                     ],
                     "includes": [
-                        "Alojamiento en Suite o Villa",
-                        "Desayuno buffet",
-                        "Acceso a la piscina principal",
-                        "Sala de juegos",
-                        "Área de juegos para niños",
-                        "Gimnasio",
-                        "Acceso al muelle privado",
-                        "Wi-Fi"
+                        "3:00 pm recojo del hotel con destino a Lamas Nativo.",
+                        "Visita a la plaza de Lamas.",
+                        "Visita al Castillo de Lamas.",
+                        "Visita al Barrio Wayku.",
+                        "Retorno a la ciudad de Tarapoto pasadas las 7:00 pm."
+                    ],
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Usar gorras, sombreros y lentes",
+                        "Llevar bloqueador solar",
+                        "Usar repelente"
                     ],
                     "checkin": "",
                     "checkout": "",
                     "termsAndConditiones": ""
                 },
                 {
-                    "title": "3 Días - 2 Noches",
-                    "img": "/img/imagenesPromociones/nocheEspecial/opcion2.webp",
-                    "altImg": "Noche Especial Rancho Roma",
+                    "title": "DÍA 2 - LAGUNA AZUL (FULL DAY)",
+                    "img": "/img/imagenesPromociones/2dias/opcion2.webp",
+                    "altImg": "Tour Laguna Azul en Tarapoto",
                     "courtesys": [
-                        "Ingreso gratuito para una pareja",
-                        "Uso ilimitado de la piscina",
-                        "Hasta 50% de descuento en traslado compartido"
+                        "Recojo del hotel y movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Degustación de tragos",
+                        "Paseo en bote y paseo en caballo",
+                        "Almuerzo a la carta"
                     ],
                     "includes": [
-                        "Alojamiento en Suite o Villa",
-                        "Desayuno buffet",
-                        "Acceso a la piscina principal",
-                        "Sala de juegos",
-                        "Área de juegos para niños",
-                        "Gimnasio",
-                        "Acceso al muelle privado",
-                        "Wi-Fi"
+                        "8:30 am partida de Tarapoto hacia el distrito de Sauce.",
+                        "Cruzamos el río Huallaga en una balsa cautiva.",
+                        "Parada en el mirador Punta del Gallinazo.",
+                        "Degustación de diferentes tragos exóticos.",
+                        "Almuerzo a la carta.",
+                        "Llegada al hotel a las 7:30 pm aprox."
                     ],
-                    "checkin": "15:00 hrs",
-                    "checkout": "12:00 hrs",
+                    "extras": [
+                        "Entrada al mirador (S/ 10.00 por persona)",
+                        "Entrada a los barros negros de Paucaryacu (S/ 50.00 por persona)",
+                        "Juegos acuáticos / extremos",
+                        "Entrada a la laguna (S/ 5.00 por persona)"
+                    ],
+                    "recommendations": [],
+                    "checkin": "",
+                    "checkout": "",
                     "termsAndConditiones": [
-                        "Promoción válida para estadías durante el año 2026.",
-                        "Válida para reservas realizadas vía WhatsApp (+51 929 909 146) o correo electrónico (reserva@hotelranchoroma.pe), con un mínimo de 48 horas de anticipación a la fecha de ingreso.",
-                        "Promoción válida hasta agotar stock y/o cupos disponibles.",
-                        "Promoción sujeta a disponibilidad al momento de realizar la reserva.",
-                        "No aplica para feriados, fines de semana largos, fechas festivas o temporadas especiales definidas por el hotel.",
-                        "Promoción no válida para grupos y aplica únicamente para reservas nuevas.",
-                        "No acumulable con otras promociones, descuentos o beneficios vigentes.",
-                        "No se permiten cambios de fecha, anulaciones ni reembolsos una vez confirmada la reserva.",
-                        "Las cortesías y actividades incluidas están sujetas a condiciones climáticas y podrán ser modificadas, reprogramadas o canceladas sin previo aviso por motivos climáticos.",
-                        "El huésped (Pax) adicional se alojará en la misma suite y compartirá la cama existente; no incluye cama adicional.",
-                        "La edad de los menores y la tarifa aplicada deberán corresponder a la categoría declarada al momento del check-in; el hotel podrá solicitar documentación de validación.",
-                        "Consultar disponibilidad de pago en cuotas sin intereses con tarjetas BBVA, Scotiabank, Diners y Power Pay, sujeto a las condiciones de cada entidad financiera."
+                        "La reserva del paquete turístico es con el 60% PAGO EN LÍNEA VISA MASTERCARD. También se puede pagar mediante transferencia, depósitos, Yape, Plin, Tunki.",
+                        "El cliente deberá enviar la evidencia de la reserva y los datos completos de los que viajan al Whatsapp.",
+                        "El otro 40% se cancelará al momento que le realizamos el check-in en el hotel, el cliente estará en todo su derecho a pedir boletas o facturas.",
+                        "Los asientos no se reservan, son destinados de acuerdo al orden de los hoteles.",
+                        "Toda reserva realizada por cualquiera de nuestros servicios no se realizará ningún tipo de devolución si el cliente decide ya no participar del programa.",
+                        "No se realizará ningún tipo de reembolso por servicios no utilizados de manera voluntaria, enfermedad u otros motivos, tampoco podrá hacerse uso en otra oportunidad.",
+                        "NIÑOS: Menores de 5 años no pagan y comparte servicios con sus padres. De 5 años en adelante pagan tarifa completa.",
+                        "Todos los servicios están sujetos a variación sin previo aviso por cuestiones climatológicas, huelgas y otros acontecimientos que nosotros no podamos controlar.",
+                        "No se permiten mascotas en ninguno de nuestros servicios.",
+                        "El itinerario y horarios pueden variar a criterio del operador, siempre para garantizar la seguridad del viajero y el mejor desarrollo del servicio.",
+                        "Exigimos puntualidad, en caso contrario solo esperaremos 10 minutos sin derecho a reembolso ni cambio de itinerario.",
+                        "Deberá respetarse el horario hotelero de Check-in y Check Out de acuerdo al hotel a elección, si el huésped no realiza su check out se reserva a pagar lo correspondiente del 100% de la tarifa publicada.",
+                        "Si decide retirarse antes de finalizar el servicio, tampoco habrá Devolución.",
+                        "Si el huésped no comunica que hará el CHECK OUT, el hotel se reserva el derecho de retirar los objetos personales de la habitación una vez vencida la hora check out.",
+                        "La agencia operadora no se responsabiliza por objetos olvidados en algunos de los tours u hotel."
                     ]
                 }
             ]
@@ -73,32 +88,112 @@
             "idPromo": 2,
             "slug": "tarapoto-3dias",
             "active": true,
-            "title": "ESCOGE TU PLATO FAVORITO",
-            "description": "Deleita tu paladar con lo mejor de la gastronomía amazónica y regional. Incluye una experiencia culinaria completa durante tu estadía en Rancho Roma.",
-            "messageWhatsapp": "Hola, quisiera más información acerca de la promoción Escoge tu Plato Favorito en el hotel Rancho Roma",
+            "title": "TOUR DE 3 DÍAS",
+            "description": "Recorre la cultura nativa de Lamas, la Laguna Azul y las cataratas de Ahuashiyacu en un viaje que combina cultura, naturaleza y descanso. Recojo del hotel, movilidad y guía incluidos. Desde S/ 195 por persona.",
+            "messageWhatsapp": "Hola, quisiera reservar el tour de 3 días (Lamas Nativo, Laguna Azul y Ahuashiyacu) con Premium Events.",
             "options": [
                 {
-                    "title": "2 Días - 1 Noche",
-                    "img": "/img/imagenesPromociones/platoFavorito/opcion1.webp",
-                    "altImg": "Escoge tu Plato Favorito Rancho Roma",
-                    "includes": [
-                        "Alojamiento en Habitación Standard o Bungalow",
-                        "Almuerzo a la carta con plato regional a elección",
-                        "Cena gourmet de 3 tiempos",
-                        "Desayuno buffet amazónico",
-                        "Coctel de bienvenida de frutas de la estación",
-                        "Acceso a áreas verdes y piscina",
-                        "Wi-Fi en zonas comunes"
+                    "title": "DÍA 1 - LAMAS NATIVO (HALF DAY)",
+                    "img": "/img/imagenesPromociones/3dias/opcion1.jpg",
+                    "altImg": "Tour Lamas Nativo en Tarapoto",
+                    "courtesys": [
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al castillo"
                     ],
-                    "checkin": "14:00 hrs",
-                    "checkout": "12:00 hrs",
+                    "includes": [
+                        "3:00 pm recojo del hotel con destino a Lamas Nativo.",
+                        "Visita a la plaza de Lamas.",
+                        "Visita al Castillo de Lamas.",
+                        "Visita al Barrio Wayku.",
+                        "Retorno a la ciudad de Tarapoto pasadas las 7:00 pm."
+                    ],
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Usar gorras, sombreros y lentes",
+                        "Llevar bloqueador solar",
+                        "Usar repelente"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "DÍA 2 - LAGUNA AZUL (FULL DAY)",
+                    "img": "/img/imagenesPromociones/3dias/opcion2.webp",
+                    "altImg": "Tour Laguna Azul en Tarapoto",
+                    "courtesys": [
+                        "Recojo del hotel y movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Degustación de tragos",
+                        "Paseo en bote y paseo en caballo",
+                        "Almuerzo a la carta"
+                    ],
+                    "includes": [
+                        "8:30 am partida de Tarapoto hacia el distrito de Sauce.",
+                        "Cruzamos el río Huallaga en una balsa cautiva.",
+                        "Parada en el mirador Punta del Gallinazo.",
+                        "Degustación de diferentes tragos exóticos.",
+                        "Almuerzo a la carta.",
+                        "Llegada al hotel a las 7:30 pm aprox."
+                    ],
+                    "extras": [
+                        "Entrada al mirador (S/ 10.00 por persona)",
+                        "Entrada a los barros negros de Paucaryacu (S/ 50.00 por persona)",
+                        "Juegos acuáticos / extremos",
+                        "Entrada a la laguna (S/ 5.00 por persona)"
+                    ],
+                    "recommendations": [],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "DÍA 3 - AHUASHIYACU (FULL DAY)",
+                    "img": "/img/imagenesPromociones/3dias/opcion3.webp",
+                    "altImg": "Tour cataratas de Ahuashiyacu en Tarapoto",
+                    "courtesys": [
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al atractivo"
+                    ],
+                    "includes": [
+                        "10:00 am recojo del hotel.",
+                        "10:40 am partida con destino al Mirador Natural Cordillera Escalera.",
+                        "Visita al mirador natural.",
+                        "Trekking de 10 minutos para llegar a las cataratas.",
+                        "Durante el recorrido podrás observar mucha flora y fauna.",
+                        "Llegada al hotel a la 1:30 pm aprox."
+                    ],
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Llevar ropa de baño y ropa de cambio",
+                        "Llevar una toalla para cambiarse",
+                        "Llevar repelente y bloqueador",
+                        "Puedes ir con sandalias o zapatillas"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
                     "termsAndConditiones": [
-                        "Promoción válida para estadías durante el año 2026.",
-                        "Aplica únicamente para reservas previas vía WhatsApp (+51 929 909 146) con al menos 24 horas de anticipación.",
-                        "Los platos de la carta seleccionados están sujetos a insumos de estación.",
-                        "No incluye bebidas alcohólicas adicionales en los almuerzos ni cenas.",
-                        "Sujeto a disponibilidad de mesas en el restaurante principal.",
-                        "No reembolsable en caso de cancelación."
+                        "La reserva del paquete turístico es con el 60% PAGO EN LÍNEA VISA MASTERCARD. También se puede pagar mediante transferencia, depósitos, Yape, Plin, Tunki.",
+                        "El cliente deberá enviar la evidencia de la reserva y los datos completos de los que viajan al Whatsapp.",
+                        "El otro 40% se cancelará al momento que le realizamos el check-in en el hotel, el cliente estará en todo su derecho a pedir boletas o facturas.",
+                        "Los asientos no se reservan, son destinados de acuerdo al orden de los hoteles.",
+                        "Toda reserva realizada por cualquiera de nuestros servicios no se realizará ningún tipo de devolución si el cliente decide ya no participar del programa.",
+                        "No se realizará ningún tipo de reembolso por servicios no utilizados de manera voluntaria, enfermedad u otros motivos, tampoco podrá hacerse uso en otra oportunidad.",
+                        "NIÑOS: Menores de 5 años no pagan y comparte servicios con sus padres. De 5 años en adelante pagan tarifa completa.",
+                        "Todos los servicios están sujetos a variación sin previo aviso por cuestiones climatológicas, huelgas y otros acontecimientos que nosotros no podamos controlar.",
+                        "No se permiten mascotas en ninguno de nuestros servicios.",
+                        "El itinerario y horarios pueden variar a criterio del operador, siempre para garantizar la seguridad del viajero y el mejor desarrollo del servicio.",
+                        "Exigimos puntualidad, en caso contrario solo esperaremos 10 minutos sin derecho a reembolso ni cambio de itinerario.",
+                        "Deberá respetarse el horario hotelero de Check-in y Check Out de acuerdo al hotel a elección, si el huésped no realiza su check out se reserva a pagar lo correspondiente del 100% de la tarifa publicada.",
+                        "Si decide retirarse antes de finalizar el servicio, tampoco habrá Devolución.",
+                        "Si el huésped no comunica que hará el CHECK OUT, el hotel se reserva el derecho de retirar los objetos personales de la habitación una vez vencida la hora check out.",
+                        "La agencia operadora no se responsabiliza por objetos olvidados en algunos de los tours u hotel."
                     ]
                 }
             ]
@@ -107,33 +202,146 @@
             "idPromo": 3,
             "slug": "tarapoto-4dias",
             "active": true,
-            "title": "SUPER PROMO",
-            "description": "La mejor tarifa para escapadas rápidas a Tarapoto. Disfruta de todos los beneficios de Rancho Roma al mejor precio del mercado.",
-            "messageWhatsapp": "Hola, quisiera más información acerca de la Super Promo en el hotel Rancho Roma",
+            "title": "TOUR DE 4 DÍAS",
+            "description": "La experiencia más completa de Tarapoto: Lamas Nativo, Laguna Azul, Moyobamba con sus aguas termales y café de altura, y las cataratas de Ahuashiyacu. Recojo del hotel, movilidad y guía incluidos. Desde S/ 294 por persona.",
+            "messageWhatsapp": "Hola, quisiera reservar el tour de 4 días (Lamas Nativo, Laguna Azul, Alto Mayo y Ahuashiyacu) con Premium Events.",
             "options": [
                 {
-                    "title": "2 Días - 1 Noche Express",
-                    "img": "/img/imagenesPromociones/superPromo/opcion1.webp",
-                    "altImg": "Super Promo Rancho Roma",
+                    "title": "DÍA 1 - LAMAS NATIVO (HALF DAY)",
+                    "img": "/img/imagenesPromociones/4dias/opcion1.jpg",
+                    "altImg": "Tour Lamas Nativo en Tarapoto",
                     "courtesys": [
-                        "Early Check-in o Late Check-out gratuito (sujeto a disponibilidad)",
-                        "Trago de bienvenida en el bar del hotel"
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al castillo"
                     ],
                     "includes": [
-                        "Alojamiento en Habitación Estándar",
-                        "Desayuno continental",
-                        "Acceso a la piscina",
-                        "Uso de la cancha de vóley y áreas recreativas",
-                        "Estacionamiento privado gratuito",
-                        "Wi-Fi"
+                        "3:00 pm recojo del hotel con destino a Lamas Nativo.",
+                        "Visita a la plaza de Lamas.",
+                        "Visita al Castillo de Lamas.",
+                        "Visita al Barrio Wayku.",
+                        "Retorno a la ciudad de Tarapoto pasadas las 7:00 pm."
                     ],
-                    "checkin": "14:00 hrs",
-                    "checkout": "12:00 hrs",
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Usar gorras, sombreros y lentes",
+                        "Llevar bloqueador solar",
+                        "Usar repelente"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "DÍA 2 - LAGUNA AZUL (FULL DAY)",
+                    "img": "/img/imagenesPromociones/4dias/opcion2.webp",
+                    "altImg": "Tour Laguna Azul en Tarapoto",
+                    "courtesys": [
+                        "Recojo del hotel y movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Degustación de tragos",
+                        "Paseo en bote y paseo en caballo",
+                        "Almuerzo a la carta"
+                    ],
+                    "includes": [
+                        "8:30 am partida de Tarapoto hacia el distrito de Sauce.",
+                        "Cruzamos el río Huallaga en una balsa cautiva.",
+                        "Parada en el mirador Punta del Gallinazo.",
+                        "Degustación de diferentes tragos exóticos.",
+                        "Almuerzo a la carta.",
+                        "Llegada al hotel a las 7:30 pm aprox."
+                    ],
+                    "extras": [
+                        "Entrada al mirador (S/ 10.00 por persona)",
+                        "Entrada a los barros negros de Paucaryacu (S/ 50.00 por persona)",
+                        "Juegos acuáticos / extremos",
+                        "Entrada a la laguna (S/ 5.00 por persona)"
+                    ],
+                    "recommendations": [],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "DÍA 3 - ALTO MAYO (FULL DAY)",
+                    "img": "/img/imagenesPromociones/4dias/opcion3.jpg",
+                    "altImg": "Tour Alto Mayo y Moyobamba",
+                    "courtesys": [
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al atractivo",
+                        "Almuerzo a la carta",
+                        "Degustación de tragos y café"
+                    ],
+                    "includes": [
+                        "7:00 am recojo del hotel. A las 8:15 am partimos con destino a Moyobamba, la ciudad de las orquídeas.",
+                        "Visita al orquideario.",
+                        "Visita a la ruta del café Maquisapa.",
+                        "Visita a la plaza de Moyobamba.",
+                        "Degustación de diferentes tipos de tragos y café en Chacra Vieja.",
+                        "Visita a la naciente de Tío Yacu.",
+                        "Almuerzo a la carta.",
+                        "Visita a las aguas termales de San Mateo.",
+                        "Llegada al hotel a las 8:00 pm aprox."
+                    ],
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Llevar ropa de baño y ropa de cambio",
+                        "Llevar una toalla para cambiarse",
+                        "Llevar repelente y bloqueador"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "DÍA 4 - AHUASHIYACU (FULL DAY)",
+                    "img": "/img/imagenesPromociones/4dias/opcion4.webp",
+                    "altImg": "Tour cataratas de Ahuashiyacu en Tarapoto",
+                    "courtesys": [
+                        "Recojo del hotel",
+                        "Movilidad turística",
+                        "Guía y/o orientador turístico",
+                        "Entrada al atractivo"
+                    ],
+                    "includes": [
+                        "10:00 am recojo del hotel.",
+                        "10:40 am partida con destino al Mirador Natural Cordillera Escalera.",
+                        "Visita al mirador natural.",
+                        "Trekking de 10 minutos para llegar a las cataratas.",
+                        "Durante el recorrido podrás observar mucha flora y fauna.",
+                        "Llegada al hotel a la 1:30 pm aprox."
+                    ],
+                    "extras": [],
+                    "recommendations": [
+                        "Usar ropa de verano",
+                        "Llevar ropa de baño y ropa de cambio",
+                        "Llevar una toalla para cambiarse",
+                        "Llevar repelente y bloqueador",
+                        "Puedes ir con sandalias o zapatillas"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
                     "termsAndConditiones": [
-                        "Promoción exprés válida únicamente para pagos al 100% al momento de reservar.",
-                        "Válida para reservas de domingo a jueves (no aplica viernes ni sábados).",
-                        "No permite cambios de fecha ni reembolsos bajo ninguna circunstancia.",
-                        "Cupos limitados por día."
+                        "La reserva del paquete turístico es con el 60% PAGO EN LÍNEA VISA MASTERCARD. También se puede pagar mediante transferencia, depósitos, Yape, Plin, Tunki.",
+                        "El cliente deberá enviar la evidencia de la reserva y los datos completos de los que viajan al Whatsapp.",
+                        "El otro 40% se cancelará al momento que le realizamos el check-in en el hotel, el cliente estará en todo su derecho a pedir boletas o facturas.",
+                        "Los asientos no se reservan, son destinados de acuerdo al orden de los hoteles.",
+                        "Toda reserva realizada por cualquiera de nuestros servicios no se realizará ningún tipo de devolución si el cliente decide ya no participar del programa.",
+                        "No se realizará ningún tipo de reembolso por servicios no utilizados de manera voluntaria, enfermedad u otros motivos, tampoco podrá hacerse uso en otra oportunidad.",
+                        "NIÑOS: Menores de 5 años no pagan y comparte servicios con sus padres. De 5 años en adelante pagan tarifa completa.",
+                        "Todos los servicios están sujetos a variación sin previo aviso por cuestiones climatológicas, huelgas y otros acontecimientos que nosotros no podamos controlar.",
+                        "No se permiten mascotas en ninguno de nuestros servicios.",
+                        "El itinerario y horarios pueden variar a criterio del operador, siempre para garantizar la seguridad del viajero y el mejor desarrollo del servicio.",
+                        "Exigimos puntualidad, en caso contrario solo esperaremos 10 minutos sin derecho a reembolso ni cambio de itinerario.",
+                        "Deberá respetarse el horario hotelero de Check-in y Check Out de acuerdo al hotel a elección, si el huésped no realiza su check out se reserva a pagar lo correspondiente del 100% de la tarifa publicada.",
+                        "Si decide retirarse antes de finalizar el servicio, tampoco habrá Devolución.",
+                        "Si el huésped no comunica que hará el CHECK OUT, el hotel se reserva el derecho de retirar los objetos personales de la habitación una vez vencida la hora check out.",
+                        "La agencia operadora no se responsabiliza por objetos olvidados en algunos de los tours u hotel."
                     ]
                 }
             ]

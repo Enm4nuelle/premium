@@ -8619,6 +8619,7 @@ li {
     font-size: 24px;
     font-family: var(--mi-font-family-secondary);
     font-weight: bold;
+    margin-top: 5px;
 }
 .promoDetail-items-item-courtesy-title, .promoDetail-items-item-includes-title{
     color: var(--promoDetail-item-labels-color);

@@ -100,21 +100,77 @@ export const PromoDetail = (props) => {
                                         </div>
                                         <div className="promoDetail-items-item-includes-container">
                                             {
-                                                props.data.isMainH1 ?
-                                                <h2 className="promoDetail-items-item-includes-title">
-                                                    {props.data.labelIncludes}
-                                                </h2>
+                                                (option.includes && option.includes.length > 0) ?
+                                                    props.data.isMainH1 ?
+                                                    <h2 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelIncludes}
+                                                    </h2>
+                                                    :
+                                                    <h3 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelIncludes}
+                                                    </h3>
                                                 :
-                                                <h3 className="promoDetail-items-item-includes-title">
-                                                    {props.data.labelIncludes}
-                                                </h3>
+                                                ""
                                             }
                                             {
-                                                option.includes.map((include, indexJ) =>(
-                                                    <p className="promoDetail-items-item-includes-text" key={index.toString() + indexJ.toString()}>
-                                                        <span>{"· "}</span>{include}
-                                                    </p>
-                                                ))
+                                                (option.includes && option.includes.length > 0) ?
+                                                    option.includes.map((include, indexJ) =>(
+                                                        <p className="promoDetail-items-item-includes-text" key={index.toString() + indexJ.toString()}>
+                                                            <span>{"· "}</span>{include}
+                                                        </p>
+                                                    ))
+                                                :
+                                                ""
+                                            }
+                                        </div>
+                                        <div className="promoDetail-items-item-includes-container">
+                                            {
+                                                (option.extras && option.extras.length > 0) ?
+                                                    props.data.isMainH1 ?
+                                                    <h2 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelExtras}
+                                                    </h2>
+                                                    :
+                                                    <h3 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelExtras}
+                                                    </h3>
+                                                :
+                                                ""
+                                            }
+                                            {
+                                                (option.extras && option.extras.length > 0) ?
+                                                    option.extras.map((include, indexJ) =>(
+                                                        <p className="promoDetail-items-item-includes-text" key={index.toString() + indexJ.toString()}>
+                                                            <span>{"· "}</span>{include}
+                                                        </p>
+                                                    ))
+                                                :
+                                                ""
+                                            }
+                                        </div>
+                                        <div className="promoDetail-items-item-includes-container">
+                                            {
+                                                (option.recommendations && option.recommendations.length > 0) ?
+                                                    props.data.isMainH1 ?
+                                                    <h2 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelRecommendations}
+                                                    </h2>
+                                                    :
+                                                    <h3 className="promoDetail-items-item-includes-title">
+                                                        {props.data.labelRecommendations}
+                                                    </h3>
+                                                :
+                                                ""
+                                            }
+                                            {
+                                                (option.recommendations && option.recommendations.length > 0) ?
+                                                    option.recommendations.map((include, indexJ) =>(
+                                                        <p className="promoDetail-items-item-includes-text" key={index.toString() + indexJ.toString()}>
+                                                            <span>{"· "}</span>{include}
+                                                        </p>
+                                                    ))
+                                                :
+                                                ""
                                             }
                                         </div>
                                         <div className="promoDetail-items-item-divider" aria-hidden="true"></div>
