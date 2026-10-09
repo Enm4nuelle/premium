@@ -1,0 +1,142 @@
+{
+    "promotions": [
+        {
+            "idPromo": 1,
+            "slug": "tarapoto-2dias",
+            "active": true,
+            "title": "TOUR DE 2 DÍAS",
+            "description": "Disfruta una noche diferente en Rancho Roma y déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
+            "messageWhatsapp": "Hola, quisiera reservar mi tour de 2 días con Premium.",
+            "options": [
+                {
+                    "title": "DÍA 1 - LAMAS NATIVO",
+                    "img": "/img/imagenesPromociones/nocheEspecial/opcion1.webp",
+                    "altImg": "Noche Especial Rancho Roma",
+                    "courtesys": [
+                        "Ingreso gratuito para una pareja",
+                        "Uso ilimitado de la piscina",
+                        "Hasta 50% de descuento en traslado compartido"
+                    ],
+                    "includes": [
+                        "Alojamiento en Suite o Villa",
+                        "Desayuno buffet",
+                        "Acceso a la piscina principal",
+                        "Sala de juegos",
+                        "Área de juegos para niños",
+                        "Gimnasio",
+                        "Acceso al muelle privado",
+                        "Wi-Fi"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "3 Días - 2 Noches",
+                    "img": "/img/imagenesPromociones/nocheEspecial/opcion2.webp",
+                    "altImg": "Noche Especial Rancho Roma",
+                    "courtesys": [
+                        "Ingreso gratuito para una pareja",
+                        "Uso ilimitado de la piscina",
+                        "Hasta 50% de descuento en traslado compartido"
+                    ],
+                    "includes": [
+                        "Alojamiento en Suite o Villa",
+                        "Desayuno buffet",
+                        "Acceso a la piscina principal",
+                        "Sala de juegos",
+                        "Área de juegos para niños",
+                        "Gimnasio",
+                        "Acceso al muelle privado",
+                        "Wi-Fi"
+                    ],
+                    "checkin": "15:00 hrs",
+                    "checkout": "12:00 hrs",
+                    "termsAndConditiones": [
+                        "Promoción válida para estadías durante el año 2026.",
+                        "Válida para reservas realizadas vía WhatsApp (+51 929 909 146) o correo electrónico (reserva@hotelranchoroma.pe), con un mínimo de 48 horas de anticipación a la fecha de ingreso.",
+                        "Promoción válida hasta agotar stock y/o cupos disponibles.",
+                        "Promoción sujeta a disponibilidad al momento de realizar la reserva.",
+                        "No aplica para feriados, fines de semana largos, fechas festivas o temporadas especiales definidas por el hotel.",
+                        "Promoción no válida para grupos y aplica únicamente para reservas nuevas.",
+                        "No acumulable con otras promociones, descuentos o beneficios vigentes.",
+                        "No se permiten cambios de fecha, anulaciones ni reembolsos una vez confirmada la reserva.",
+                        "Las cortesías y actividades incluidas están sujetas a condiciones climáticas y podrán ser modificadas, reprogramadas o canceladas sin previo aviso por motivos climáticos.",
+                        "El huésped (Pax) adicional se alojará en la misma suite y compartirá la cama existente; no incluye cama adicional.",
+                        "La edad de los menores y la tarifa aplicada deberán corresponder a la categoría declarada al momento del check-in; el hotel podrá solicitar documentación de validación.",
+                        "Consultar disponibilidad de pago en cuotas sin intereses con tarjetas BBVA, Scotiabank, Diners y Power Pay, sujeto a las condiciones de cada entidad financiera."
+                    ]
+                }
+            ]
+        },
+        {
+            "idPromo": 2,
+            "slug": "tarapoto-3dias",
+            "active": true,
+            "title": "ESCOGE TU PLATO FAVORITO",
+            "description": "Deleita tu paladar con lo mejor de la gastronomía amazónica y regional. Incluye una experiencia culinaria completa durante tu estadía en Rancho Roma.",
+            "messageWhatsapp": "Hola, quisiera más información acerca de la promoción Escoge tu Plato Favorito en el hotel Rancho Roma",
+            "options": [
+                {
+                    "title": "2 Días - 1 Noche",
+                    "img": "/img/imagenesPromociones/platoFavorito/opcion1.webp",
+                    "altImg": "Escoge tu Plato Favorito Rancho Roma",
+                    "includes": [
+                        "Alojamiento en Habitación Standard o Bungalow",
+                        "Almuerzo a la carta con plato regional a elección",
+                        "Cena gourmet de 3 tiempos",
+                        "Desayuno buffet amazónico",
+                        "Coctel de bienvenida de frutas de la estación",
+                        "Acceso a áreas verdes y piscina",
+                        "Wi-Fi en zonas comunes"
+                    ],
+                    "checkin": "14:00 hrs",
+                    "checkout": "12:00 hrs",
+                    "termsAndConditiones": [
+                        "Promoción válida para estadías durante el año 2026.",
+                        "Aplica únicamente para reservas previas vía WhatsApp (+51 929 909 146) con al menos 24 horas de anticipación.",
+                        "Los platos de la carta seleccionados están sujetos a insumos de estación.",
+                        "No incluye bebidas alcohólicas adicionales en los almuerzos ni cenas.",
+                        "Sujeto a disponibilidad de mesas en el restaurante principal.",
+                        "No reembolsable en caso de cancelación."
+                    ]
+                }
+            ]
+        },
+        {
+            "idPromo": 3,
+            "slug": "tarapoto-4dias",
+            "active": true,
+            "title": "SUPER PROMO",
+            "description": "La mejor tarifa para escapadas rápidas a Tarapoto. Disfruta de todos los beneficios de Rancho Roma al mejor precio del mercado.",
+            "messageWhatsapp": "Hola, quisiera más información acerca de la Super Promo en el hotel Rancho Roma",
+            "options": [
+                {
+                    "title": "2 Días - 1 Noche Express",
+                    "img": "/img/imagenesPromociones/superPromo/opcion1.webp",
+                    "altImg": "Super Promo Rancho Roma",
+                    "courtesys": [
+                        "Early Check-in o Late Check-out gratuito (sujeto a disponibilidad)",
+                        "Trago de bienvenida en el bar del hotel"
+                    ],
+                    "includes": [
+                        "Alojamiento en Habitación Estándar",
+                        "Desayuno continental",
+                        "Acceso a la piscina",
+                        "Uso de la cancha de vóley y áreas recreativas",
+                        "Estacionamiento privado gratuito",
+                        "Wi-Fi"
+                    ],
+                    "checkin": "14:00 hrs",
+                    "checkout": "12:00 hrs",
+                    "termsAndConditiones": [
+                        "Promoción exprés válida únicamente para pagos al 100% al momento de reservar.",
+                        "Válida para reservas de domingo a jueves (no aplica viernes ni sábados).",
+                        "No permite cambios de fecha ni reembolsos bajo ninguna circunstancia.",
+                        "Cupos limitados por día."
+                    ]
+                }
+            ]
+        }
+    ]
+}
