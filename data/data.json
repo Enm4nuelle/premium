@@ -844,7 +844,14 @@
             "showInMenu": false,
             "data":{
                 "isMainH1": true,
-                "isAfterHeader": true
+                "isAfterHeader": true,
+                "title": "Arma tu Plan con PREMIUM",
+                "description": "Arma un plan a tu medida, escogiendo solo los destinos que más te interesan.",
+                "dataFromJson": true,
+                "labelNoShowDestiny": "Selecciona una Locación para escoger los destinos.",
+                "labelCheckbox": "¿Escoger?",
+                "labelTotalPrice": "Precio Total: ",
+                "labelDuration": "Duracíón: "
             },
             "order": 2
         }

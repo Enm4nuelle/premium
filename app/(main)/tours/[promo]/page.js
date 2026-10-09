@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
         title: promoInfo.title,
         description: promoInfo.description,
         alternates: {
-            canonical: `/promociones/${promoInfo.slug}`,
+            canonical: `/tours/${promoInfo.slug}`,
         },
         openGraph: {
-            title: `${promoInfo.title} | Rancho Roma`,
+            title: `${promoInfo.title} | Premium`,
             description: promoInfo.description,
-            url: `${JsonData.urlDomain}promociones/${promoInfo.slug}`,
+            url: `${JsonData.urlDomain}tours/${promoInfo.slug}`,
             images: [JsonData.ogImage],
         },
     };
@@ -35,18 +35,18 @@ export const PromocionesDetail = async({params}) => {
 
     const jsonLdPromo = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "TouristTrip",
         "name": promoInfo.title,
         "description": promoInfo.description,
         "image": `${JsonData.urlDomain.substring(0, JsonData.urlDomain.length - 1)}${promoInfo.options[0].img}`,
-        "brand": { "@type": "Brand", "name": "Hotel Rancho Roma" },
+        "brand": { "@type": "Brand", "name": "Premium" },
         "offers": {
             "@type": "Offer",
             "price": promoInfo.price,
             "priceCurrency": promoInfo.currency ?? "PEN",
             "availability": "https://schema.org/InStock",
-            "url": `${JsonData.urlDomain}promociones/${promoInfo.slug}`,
-            "seller": { "@type": "LodgingBusiness", "name": "Hotel Rancho Roma" }
+            "url": `${JsonData.urlDomain}tours/${promoInfo.slug}`,
+            "seller": { "@type": "TravelAgency", "name": "Premium Events" }
         }
     };
 
@@ -55,8 +55,8 @@ export const PromocionesDetail = async({params}) => {
         "@type": "BreadcrumbList",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Inicio", "item": JsonData.urlDomain },
-            { "@type": "ListItem", "position": 2, "name": "Paquetes", "item": `${JsonData.urlDomain}promociones` },
-            { "@type": "ListItem", "position": 3, "name": promoInfo.title, "item": `${JsonData.urlDomain}promociones/${promoInfo.slug}` }
+            { "@type": "ListItem", "position": 2, "name": "Tours", "item": `${JsonData.urlDomain}tours` },
+            { "@type": "ListItem", "position": 3, "name": promoInfo.title, "item": `${JsonData.urlDomain}tours/${promoInfo.slug}` }
         ]
     };
 

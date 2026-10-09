@@ -12,15 +12,15 @@ import ListParrafsWithImg from "@/components/listParrafsWithImg";
 import CardsPaymentsList from "@/components/cardsPaymentsList";
 
 export const metadata = {
-    title: "Paquetes y Promociones",
-    description: "Conoce los paquetes de Hotel Rancho Roma: 3 días/2 noches, 4 días/3 noches y celebraciones especiales en la selva de Tarapoto. Alojamiento, desayuno y acceso a todas nuestras instalaciones.",
+    title: "Tours",
+    description: "Premium organiza tours de 2 a 4 días en Tarapoto: Lamas, Laguna Azul, Alto Mayo y cataratas de Ahuashiyacu. Recojo del hotel, guía y movilidad incluidos.",
     alternates: {
-        canonical: "/promociones",
+        canonical: "/tours",
     },
     openGraph: {
-        title: "Paquetes y Promociones | Rancho Roma",
-        description: "Conoce los paquetes de Hotel Rancho Roma: 3 días/2 noches, 4 días/3 noches y celebraciones especiales en la selva de Tarapoto.",
-        url: `${JsonData.urlDomain}promociones`,
+        title: "Tours | Premium",
+        description: "Premium organiza tours de 2 a 4 días en Tarapoto: Lamas, Laguna Azul, Alto Mayo y cataratas de Ahuashiyacu. Recojo del hotel, guía y movilidad incluidos.",
+        url: `${JsonData.urlDomain}tours`,
         images: [JsonData.ogImage],
         locale: "es_PE",
         type: "website",
@@ -33,7 +33,7 @@ export const Promociones = () => {
         "@type": "BreadcrumbList",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Inicio", "item": JsonData.urlDomain },
-            { "@type": "ListItem", "position": 2, "name": "Paquetes", "item": `${JsonData.urlDomain}promociones` }
+            { "@type": "ListItem", "position": 2, "name": "Paquetes", "item": `${JsonData.urlDomain}tours` }
         ]
     };
 

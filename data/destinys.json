@@ -16,42 +16,77 @@
             "idDestiny": 1,
             "idLocation": 1,
             "name": "Lamas Nativo",
+            "duration": "half day",
+            "description": "Lamas Nativo y sus cascadas te sorprenderán",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "50",
             "img": "/img/imagenesDestinos/tarapoto/lamasNativo/foto1.webp"
         },
         {
             "idDestiny": 2,
             "idLocation": 1,
             "name": "Laguna Azul",
+            "duration": "full day",
+            "description": "Laguna Azul y sus cascadas te sorprenderán",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "85",
             "img": "/img/imagenesDestinos/tarapoto/lagunaAzul/foto1.webp"
         },
         {
             "idDestiny": 3,
             "idLocation": 1,
             "name": "Alto Mayo",
+            "duration": "full day",
+            "description": "Alto Mayo y sus cascadas te sorprenderán",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "70",
             "img": "/img/imagenesDestinos/tarapoto/altoMayo/foto1.webp"
         },
         {
             "idDestiny": 4,
             "idLocation": 1,
             "name": "Ahuashiyacu",
+            "duration": "full day",
+            "description": "Ahuashiyacu y sus cascadas te sorprenderán",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "80",
             "img": "/img/imagenesDestinos/tarapoto/ahuashiyacu/foto1.webp"
         },
         {
             "idDestiny": 5,
             "idLocation": 2,
             "name": "Paracas",
+            "duration": "full day",
+            "description": "Paracas y sus líneas te sorprenderán",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "100",
             "img": "/img/imagenesDestinos/ica/paracas/foto1.webp"
         },
         {
             "idDestiny": 6,
             "idLocation": 2,
             "name": "Oasis de Huacachina",
+            "duration": "full day",
+            "description": "El Oasis de Huacachina te sorprendera",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "100",
             "img": "/img/imagenesDestinos/ica/oasisHuacachina/foto1.webp"
         },
         {
             "idDestiny": 7,
             "idLocation": 2,
             "name": "Santuario Señor de Luren",
+            "duration": "full day",
+            "description": "Conoce el majestuoso Santuario de Señor de Luren",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "100",
             "img": "/img/imagenesDestinos/ica/senorLuren/foto1.webp"
         }
     ]

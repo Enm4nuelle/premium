@@ -7,6 +7,7 @@
             "title": "TOUR DE 2 DÍAS",
             "description": "Conoce la cultura nativa de Lamas y disfruta de la Laguna Azul con paseo en bote y a caballo, degustación de tragos y almuerzo a la carta. Recojo del hotel, movilidad y guía incluidos. Desde S/ 145 por persona.",
             "messageWhatsapp": "Hola, quisiera reservar el tour de 2 días (Lamas Nativo y Laguna Azul) con Premium Events.",
+            "price": "145",
             "options": [
                 {
                     "title": "DÍA 1 - LAMAS NATIVO (HALF DAY)",
@@ -90,6 +91,7 @@
             "active": true,
             "title": "TOUR DE 3 DÍAS",
             "description": "Recorre la cultura nativa de Lamas, la Laguna Azul y las cataratas de Ahuashiyacu en un viaje que combina cultura, naturaleza y descanso. Recojo del hotel, movilidad y guía incluidos. Desde S/ 195 por persona.",
+            "price": "195",
             "messageWhatsapp": "Hola, quisiera reservar el tour de 3 días (Lamas Nativo, Laguna Azul y Ahuashiyacu) con Premium Events.",
             "options": [
                 {
@@ -205,6 +207,7 @@
             "title": "TOUR DE 4 DÍAS",
             "description": "La experiencia más completa de Tarapoto: Lamas Nativo, Laguna Azul, Moyobamba con sus aguas termales y café de altura, y las cataratas de Ahuashiyacu. Recojo del hotel, movilidad y guía incluidos. Desde S/ 294 por persona.",
             "messageWhatsapp": "Hola, quisiera reservar el tour de 4 días (Lamas Nativo, Laguna Azul, Alto Mayo y Ahuashiyacu) con Premium Events.",
+            "price": "294",
             "options": [
                 {
                     "title": "DÍA 1 - LAMAS NATIVO (HALF DAY)",

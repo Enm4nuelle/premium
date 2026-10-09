@@ -17,7 +17,15 @@ export const metadata = {
     },
 };
 
-export const Promociones = () => {
+export const ArmaTuPlan = () => {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Creador de Planes de Viaje",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "All",
+        "description": "Herramienta interactiva para armar tu itinerario personalizado seleccionando locaciones y destinos."
+    }
     const pages = [];
     for (const page of JsonData.pagesArmarPlan) {
         if (page.pageName === "BuildPlan"){
@@ -27,8 +35,12 @@ export const Promociones = () => {
     pages.sort((a, b) => a.order - b.order);
     return (
         <div>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             {pages.map((p) => p.e)}
         </div>
     )
 }
-export default Promociones;
+export default ArmaTuPlan;
