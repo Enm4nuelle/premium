@@ -4,6 +4,7 @@ import ToastProvider from "@/components/toastProvider";
 import ScrollToTop from "@/components/scrollToTop";
 import { ProductProvider } from "@/context/ProductContext";
 import { PackageProvider } from '@/context/PackageContext';
+import { PlanProvider } from '@/context/PlanContext';
 
 export default function RootLayout({ children }) {
 	return (
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
 			<body>
                 <ProductProvider>
                 <PackageProvider>
+                <PlanProvider>
                     {children}
                     <ToastProvider />
                     <ScrollToTop />
+                </PlanProvider>
                 </PackageProvider>
                 </ProductProvider>
             </body>

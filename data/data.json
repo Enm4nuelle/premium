@@ -851,7 +851,17 @@
                 "labelNoShowDestiny": "Selecciona una Locación para escoger los destinos.",
                 "labelCheckbox": "¿Escoger?",
                 "labelTotalPrice": "Precio Total: ",
-                "labelDuration": "Duracíón: "
+                "labelDuration": "Duracíón: ",
+                "iconDelete": "fa fa-solid fa-xmark",
+                "buttonCotization": {
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929183224",
+                    "text": "¡Reserva Ahora! ",
+                    "defaultMessage": "Hola, me encuentro interesado reservar un tour con Premium.",
+                    "firstPartMessage": "Hola, me encuentro interesado en reservar un tour en ",
+                    "lastConnector": "y",
+                    "icon": "fa fa-brands fa-whatsapp"
+                }
             },
             "order": 2
         }

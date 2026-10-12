@@ -3,11 +3,13 @@
         {
             "idLocation": 1,
             "name": "Tarapoto",
+            "description": "Descubre los misterios de la selva de Tarapoto.",
             "img": "/img/imagenesDestinos/tarapoto/imagen1.webp"
         },
         {
             "idLocation": 2,
             "name": "Ica",
+            "description": "Conoce las hermosas atracciones de Ica.",
             "img": "/img/imagenesDestinos/ica/imagen1.webp"
         }
     ],
@@ -64,7 +66,7 @@
             "description": "Paracas y sus líneas te sorprenderán",
             "currency": "PEN",
             "currencySymbol": "S/. ",
-            "price": "100",
+            "price": "80",
             "img": "/img/imagenesDestinos/ica/paracas/foto1.webp"
         },
         {
@@ -75,7 +77,7 @@
             "description": "El Oasis de Huacachina te sorprendera",
             "currency": "PEN",
             "currencySymbol": "S/. ",
-            "price": "100",
+            "price": "115",
             "img": "/img/imagenesDestinos/ica/oasisHuacachina/foto1.webp"
         },
         {
@@ -86,7 +88,7 @@
             "description": "Conoce el majestuoso Santuario de Señor de Luren",
             "currency": "PEN",
             "currencySymbol": "S/. ",
-            "price": "100",
+            "price": "50",
             "img": "/img/imagenesDestinos/ica/senorLuren/foto1.webp"
         }
     ]

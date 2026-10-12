@@ -425,6 +425,21 @@
     --detailNews-subTitle-color: #2e6bcc;
     --detailNews-information-color: #8a8080;
     --detailNews-parragraph-color: #494141;
+
+    --buildPlan-title-color: #00c6a5;
+    --buildPlan-divider-color: #5c9b8a;
+    --buildPlan-header-description-color: #000000;
+    --buildPlan-location-title-color: #5C9B8A;
+    --buildPlan-color-selected: #00c6a5;
+    --buildPlan-selected-item-price-color: #00c6a5;
+    --buildPlan-checkbox-check-color: #2E4857;
+    --buildPlan-checkbox-check-background-color: #00c6a5;
+    --buildPlan-selected-background-color: #2E4857;
+    --buildPlan-selected-text-color: #E8FFEF;
+    --buildPlan-checkbox-border-color: #5C9B8A;
+    --buildPlan-checkbox-label-color: #5C9B8A;
+    --buildPlan-deleteIcon-color: #E8FFEF;
+    --buildPlan-deleteIcon-background-color: #ff0000;
 }
 /*--------------------------------------------------------------
 # GENERAL
@@ -9426,7 +9441,7 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
     background: var(--listNews-divider-color);
-    border-radius: 999px;   
+    border-radius: 999px;
 }
 .listNews-header-description{
     color: var(--listNews-description-color);
@@ -9721,4 +9736,334 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.buildPlan-header{
+    margin-top: 60px;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buildPlan-header-title{
+    font-size: clamp(1.88rem, calc(1.511rem + 1.818vw), 2.88rem);
+    line-height: 1.1;
+    color: var(--buildPlan-title-color);
+    margin-bottom: 0px;
+}
+.buildPlan-header-divider{
+    width: 90px;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: var(--buildPlan-divider-color);
+    border-radius: 999px;
+}
+.buildPlan-header-description{
+    color: var(--buildPlan-header-description-color);
+    font-size: clamp(1rem, 0.68rem + 0.563vw, 1.1875rem);
+}
+.buildPlan-locations{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.buildPlan-locations-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 380px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(46, 72, 87, 0.12);
+    padding-top: 10px;
+    cursor: pointer;
+    transition: transform ease-in-out 0.3s;
+}
+.buildPlan-locations-location:hover{
+    transform: scale(1.02);
+}
+.buildPlan-locations-location-selected{
+    border-color: var(--buildPlan-color-selected);
+}
+.buildPlan-locations-location-title{
+    margin-bottom: 0;
+    text-align: center;
+    color: var(--buildPlan-location-title-color);
+    font-size: clamp(1.25rem, 0.833rem + 1.333vw, 2rem);
+}
+.buildPlan-locations-location-description{
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0px 10px;
+    font-size: 1rem;
+    color: var(--buildPlan-header-description-color);
+}
+.buildPlan-locations-location-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.buildPlan-showDestiny{
+    font-size: clamp(0.938rem, 0.625rem + 1vw, 1.5rem);
+    font-style: italic;
+    text-align: center;
+    width: 90%;
+}
+.buildPlan-destinys{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.buildPlan-destinys-list{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.buildPlan-destinys-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 24px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(46, 72, 87, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.buildPlan-destinys-list-item:hover{
+    box-shadow: 0 10px 24px rgba(46, 72, 87, 0.18);
+}
+.buildPlan-destinys-list-item:has(.buildPlan-destinys-list-item-checkbox-input:checked){
+    border-color: var(--buildPlan-color-selected);
+}
+
+.buildPlan-destinys-list-item-img{
+    flex-shrink: 0;
+    width: 250px;
+    min-height: 170px;
+    height: auto;
+    object-fit: cover;
+}
+
+.buildPlan-destinys-list-item-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 0;
+}
+.buildPlan-destinys-list-item-info-name{
+    margin: 0;
+    font-size: clamp(1.25rem, 1rem + 0.8vw, 1.7rem);
+    line-height: 1.1;
+}
+.buildPlan-destinys-list-item-info-duration{
+    margin: 0;
+    width: fit-content;
+    padding: 4px 12px;
+    background: rgba(0, 198, 165, 0.25);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.buildPlan-destinys-list-item-info-description{
+    margin: 0;
+    opacity: 0.85;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+.buildPlan-destinys-list-item-info-price{
+    margin: 4px 0 0;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+/* ---------- Checkbox ---------- */
+.buildPlan-destinys-list-item-checkbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 24px 0 4px;
+}
+.buildPlan-destinys-list-item-checkbox-input{
+    appearance: none;
+    -webkit-appearance: none;
+    display: grid;
+    place-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid var(--buildPlan-checkbox-border-color);
+    border-radius: 9px;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+.buildPlan-destinys-list-item-checkbox-input::after{
+    content: "";
+    width: 14px;
+    height: 8px;
+    margin-top: -2px;
+    border-left: 3px solid var(--buildPlan-checkbox-check-color);
+    border-bottom: 3px solid var(--buildPlan-checkbox-check-color);
+    transform: rotate(-45deg) scale(0);
+    transition: transform 0.15s ease;
+}
+.buildPlan-destinys-list-item-checkbox-input:hover{
+    transform: scale(1.08);
+}
+.buildPlan-destinys-list-item-checkbox-input:checked{
+    background: var(--buildPlan-checkbox-check-background-color);
+    border-color: var(--buildPlan-checkbox-check-background-color);
+}
+.buildPlan-destinys-list-item-checkbox-input:checked::after{
+    transform: rotate(-45deg) scale(1);
+}
+.buildPlan-destinys-list-item-checkbox-input:focus-visible{
+    outline: 3px solid var(--buildPlan-color-selected);
+    outline-offset: 3px;
+}
+.buildPlan-destinys-list-item-checkbox-label{
+    margin: 0;
+    color: var(--buildPlan-checkbox-label-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* ---------- Resumen (derecha) ---------- */
+.buildPlan-destinys-selected{
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 420px;
+    gap: 14px;
+    padding: 24px;
+    color: var(--buildPlan-selected-text-color);
+    background: var(--buildPlan-selected-background-color);
+    border-radius: 24px;
+    box-shadow: 0 12px 30px rgba(46, 72, 87, 0.35);
+}
+
+.buildPlan-destinys-selected-item{
+    display: grid;
+    grid-template-columns: 64px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(232, 255, 239, 0.18);
+}
+.buildPlan-destinys-selected-item-img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.buildPlan-destinys-selected-item-name{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.2;
+}
+.buildPlan-destinys-selected-item-price{
+    margin: 0;
+    color: var(--buildPlan-selected-item-price-color);
+    font-size: 1.05rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.buildPlan-destinys-selected-item-deleteIcon{
+    margin-left: 8px;
+    color: var(--buildPlan-deleteIcon-color);
+    border-radius: 99px;
+    padding: 5px 7px;
+    background-color: var(--buildPlan-deleteIcon-background-color);
+    cursor: pointer;
+    transition: transform ease-in-out 0.2s;
+}
+.buildPlan-destinys-selected-item-deleteIcon:hover{
+    transform: scale(1.1);
+}
+.buildPlan-destinys-selected-total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    padding: 14px 16px;
+    background: rgba(0, 198, 165, 0.15);
+    border-radius: 15px;
+}
+.buildPlan-destinys-selected-item-totalPrice{
+    width: 100%;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.buildPlan-destinys-selected-button{
+    border-radius: 15px;
+}
+.buildPlan-destinys-selected-button-icon{
+    margin-left: 10px;
+}
+
+@media (max-width: 1300px){
+    .buildPlan-destinys{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .buildPlan-destinys-selected{
+        position: static;
+        flex-basis: auto;
+        width: auto;
+    }
+}
+@media (max-width: 650px){
+    .buildPlan-destinys-list-item{
+        flex-direction: column;
+        gap: 0;
+    }
+    .buildPlan-destinys-list-item-img{
+        width: 100%;
+        height: 200px;
+    }
+    .buildPlan-destinys-list-item-info{
+        padding: 16px 20px 8px;
+    }
+    .buildPlan-destinys-list-item-checkbox-container{
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 8px 20px 18px;
+    }
 }
