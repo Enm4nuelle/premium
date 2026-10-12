@@ -5,8 +5,20 @@ export default function sitemap() {
     const baseUrl = JsonData.urlDomain.replace(/\/$/, "");
     let pagesActive = [];
 
-    pagesActive.unshift({
+    pagesActive.push({
         url: JsonData.urlDomain,
+        lastModified: today,
+        changeFrequency: "weekly",
+        priority: 1,
+    });
+    pagesActive.push({
+        url: JsonData.urlDomain,
+        lastModified: today,
+        changeFrequency: "weekly",
+        priority: 1,
+    });
+    pagesActive.push({
+        url: `${JsonData.urlDomain}arma-tu-plan`,
         lastModified: today,
         changeFrequency: "weekly",
         priority: 1,
