@@ -9,7 +9,6 @@ export const CardsPaymentsList = (props) => {
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === "Escape") {
-                console.log("entra");
                 setModalShowed(-1);
             };
         };
@@ -27,7 +26,7 @@ export const CardsPaymentsList = (props) => {
         for(let i = 0; i < props.data.banks.length; i++){
             delayAnimationItems.push(intervalAnimationItem * (i + 1));
         }
-        console.log(delayAnimationItems);
+        //console.log(delayAnimationItems);
     }
     return (
         <section className={"cardsPaymentsList " + (props.data.isAfterHeader ? "firstOnPageWithHeader" : "")}>

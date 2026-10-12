@@ -67,13 +67,11 @@ export const FormCotization = (props) => {
             return;
         }else{
             let auxValues = structuredClone(values);
-            console.log("envio a backend", auxValues);
 
             const formData = new FormData();
 
             formData.append("access_key", JsonData.keyWeb3Form);
 
-            console.log()
             fields.forEach((field)=>{
                 if(field.type === "select"){
                     for(let i = 0; i < field.options.length; i++){
@@ -97,8 +95,6 @@ export const FormCotization = (props) => {
                     formData.append(field.formLabel, values[field.name]);
                 }
             });
-
-            console.log([...formData]);
 
             try {
                 const response = await fetch(

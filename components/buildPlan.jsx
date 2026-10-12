@@ -34,7 +34,7 @@ export const BuildPlan = (props) => {
     const handleChangeCheckbox = (destChosen) =>{
         destChosen.isChosen = !destChosen.isChosen;
         setDestinysSelect(destinysChosen.filter((d) => d.isChosen));
-        console.log(destinysSelect);
+        //console.log(destinysSelect);
     }
 
     const sumaTotalPlanes = () => {
