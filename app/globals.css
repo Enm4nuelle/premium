@@ -196,8 +196,8 @@
 
     --imgWitMessage-title-color: #E8FFEF;
     --imgWitMessage-title-highligh-color: #00C6A5;
-    --imgWitMessage-footer-icon-color: #ffffff;
-    --imgWitMessage-footer-title-color: #ffffff;
+    --imgWitMessage-footer-icon-color: #2E4857;
+    --imgWitMessage-footer-title-color: #2E4857;
     --imgWitMessage-footer-description-color: #ffffff;
     --imgWithMessage-footer-background-color: rgb(218, 218, 219, 0.65);
 
@@ -817,9 +817,9 @@ li {
     inset: 0;
     background: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.15) 25%,
-        rgba(0, 0, 0, 0.1) 40%,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.2) 35%,
+        rgba(0, 0, 0, 0.1) 60%,
         rgba(0, 0, 0, 0) 80%
     );
     z-index: 1;

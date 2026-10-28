@@ -61,6 +61,17 @@
         {
             "idDestiny": 5,
             "idLocation": 2,
+            "name": "Oasis de Huacachina",
+            "duration": "full day",
+            "description": "El Oasis de Huacachina te sorprendera",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "80",
+            "img": "/img/imagenesDestinos/ica/oasisHuacachina/foto1.webp"
+        },
+        {
+            "idDestiny": 6,
+            "idLocation": 2,
             "name": "Paracas",
             "duration": "full day",
             "description": "Paracas y sus líneas te sorprenderán",
@@ -70,26 +81,37 @@
             "img": "/img/imagenesDestinos/ica/paracas/foto1.webp"
         },
         {
-            "idDestiny": 6,
-            "idLocation": 2,
-            "name": "Oasis de Huacachina",
-            "duration": "full day",
-            "description": "El Oasis de Huacachina te sorprendera",
-            "currency": "PEN",
-            "currencySymbol": "S/. ",
-            "price": "115",
-            "img": "/img/imagenesDestinos/ica/oasisHuacachina/foto1.webp"
-        },
-        {
             "idDestiny": 7,
             "idLocation": 2,
-            "name": "Santuario Señor de Luren",
+            "name": "Islas Ballestas",
             "duration": "full day",
-            "description": "Conoce el majestuoso Santuario de Señor de Luren",
+            "description": "Navega en deslizador y observa la fauna marina de las Islas Ballestas",
             "currency": "PEN",
             "currencySymbol": "S/. ",
-            "price": "50",
-            "img": "/img/imagenesDestinos/ica/senorLuren/foto1.webp"
+            "price": "70",
+            "img": "/img/imagenesDestinos/ica/islasBallestas/foto1.webp"
+        },
+        {
+            "idDestiny": 8,
+            "idLocation": 2,
+            "name": "Bodega de Vinos",
+            "duration": "half day",
+            "description": "Degusta vinos, piscos y cremas artesanales en una bodega de Ica",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "60",
+            "img": "/img/imagenesDestinos/ica/bodegaVinos/foto1.webp"
+        },
+        {
+            "idDestiny": 9,
+            "idLocation": 2,
+            "name": "Tubulares y Sandboard",
+            "duration": "half day",
+            "description": "Vive la adrenalina en los tubulares y el sandboard del desierto de Ica",
+            "currency": "PEN",
+            "currencySymbol": "S/. ",
+            "price": "90",
+            "img": "/img/imagenesDestinos/ica/tubularesSandboard/foto1.webp"
         }
     ]
 }

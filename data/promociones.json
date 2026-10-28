@@ -348,6 +348,96 @@
                     ]
                 }
             ]
+        },
+        {
+            "idPromo": 5,
+            "slug": "ica-fullday",
+            "active": true,
+            "title": "FULL DAY PARACAS - ICA",
+            "description": "Islas Ballestas, balneario de Paracas, bodega de vinos en Ica y el Oasis de la Huacachina con tubulares y sandboard. Salida desde Lima con transporte turístico y guía bilingüe incluidos.",
+            "messageWhatsapp": "Hola, quisiera reservar el Full Day Paracas - Ica (Islas Ballestas, Bodega de vinos y Huacachina).",
+            "price": "180",
+            "options": [
+                {
+                    "title": "PARTE 1 - PARACAS (ISLAS BALLESTAS)",
+                    "img": "/img/imagenesPromociones/fulldayIca/opcion1.webp",
+                    "altImg": "Tour Islas Ballestas y balneario de Paracas",
+                    "courtesys": [
+                        "Transporte turístico ida y vuelta",
+                        "Guía de turismo bilingüe (español / inglés)",
+                        "Visita a la bahía de Paracas",
+                        "Recorrido a las Islas Ballestas en deslizador",
+                        "Degustación de dulces típicos",
+                        "Impuesto turístico de Ballestas"
+                    ],
+                    "includes": [
+                        "Recojo en puntos de embarque desde las 3:40 am (Plaza Norte, Bolognesi, San Isidro, Miraflores y Pte. Próceres / Pte. Alipio) o recojo en hotel desde las 4:00 am.",
+                        "8:30 am Llegada a Paracas y recorrido en deslizador por las Islas Ballestas (1 h 30 min aprox.), observando la fauna marina y la Reserva de Paracas.",
+                        "10:40 am Tiempo libre en el balneario de Paracas para recorrerlo y degustar dulces típicos como chocotejas, galletas y tejas."
+                    ],
+                    "extras": [
+                        
+                    ],
+                    "recommendations": [
+                        "Usar ropa cómoda y fresca",
+                        "Llevar casaca ligera para la mañana en las Islas Ballestas",
+                        "Usar gorras, sombreros y lentes",
+                        "Llevar bloqueador solar"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": ""
+                },
+                {
+                    "title": "PARTE 2 - ICA (BODEGA, HUACACHINA Y TUBULARES)",
+                    "img": "/img/imagenesPromociones/fulldayIca/opcion2.webp",
+                    "altImg": "Tour Huacachina, tubulares y sandboard en Ica",
+                    "courtesys": [
+                        "Visita a la bodega de vinos en Ica",
+                        "Degustación gratuita de vinos y piscos",
+                        "Visita al Oasis de la Huacachina",
+                        "Paseo en tubulares y deslizamiento en sandboard",
+                        "Impuesto turístico de Huacachina",
+                        "Fotos durante todo el recorrido",
+                        "Copa de pisco sour al cumpleañero"
+                    ],
+                    "includes": [
+                        "12:00 pm Visita a una bodega de vinos en Ica con degustación de vinos, piscos y cremas artesanales, tiempo para fotos y compras.",
+                        "2:45 pm Visita al Oasis de la Huacachina con tiempo libre para recorrer sus alrededores.",
+                        "4:00 pm Tubulares (carros areneros) en el desierto de Ica, unos 40 minutos aprox., con deslizamiento en sandboard.",
+                        "4:30 pm Salida de Ica con retorno a Lima, con parada en Asia para compras o uso de servicios higiénicos.",
+                        "9:30 pm Arribo a Lima aprox."
+                    ],
+                    "extras": [
+                        
+                    ],
+                    "recommendations": [
+                        "Usar ropa cómoda y fresca",
+                        "Usar zapatillas o calzado cerrado",
+                        "Usar gorras, sombreros y lentes",
+                        "Llevar bloqueador solar"
+                    ],
+                    "checkin": "",
+                    "checkout": "",
+                    "termsAndConditiones": [
+                        "La reserva del paquete turístico es con el 60% PAGO EN LÍNEA VISA MASTERCARD. También se puede pagar mediante transferencia, depósitos, Yape, Plin, Tunki.",
+                        "El cliente deberá enviar la evidencia de la reserva y los datos completos de los que viajan al Whatsapp.",
+                        "El otro 40% se cancelará al momento que le realizamos el check-in en el hotel, el cliente estará en todo su derecho a pedir boletas o facturas.",
+                        "Los asientos no se reservan, son destinados de acuerdo al orden de los hoteles.",
+                        "Toda reserva realizada por cualquiera de nuestros servicios no se realizará ningún tipo de devolución si el cliente decide ya no participar del programa.",
+                        "No se realizará ningún tipo de reembolso por servicios no utilizados de manera voluntaria, enfermedad u otros motivos, tampoco podrá hacerse uso en otra oportunidad.",
+                        "NIÑOS: Menores de 5 años no pagan y comparte servicios con sus padres. De 5 años en adelante pagan tarifa completa.",
+                        "Todos los servicios están sujetos a variación sin previo aviso por cuestiones climatológicas, huelgas y otros acontecimientos que nosotros no podamos controlar.",
+                        "No se permiten mascotas en ninguno de nuestros servicios.",
+                        "El itinerario y horarios pueden variar a criterio del operador, siempre para garantizar la seguridad del viajero y el mejor desarrollo del servicio.",
+                        "Exigimos puntualidad, en caso contrario solo esperaremos 10 minutos sin derecho a reembolso ni cambio de itinerario.",
+                        "Deberá respetarse el horario hotelero de Check-in y Check Out de acuerdo al hotel a elección, si el huésped no realiza su check out se reserva a pagar lo correspondiente del 100% de la tarifa publicada.",
+                        "Si decide retirarse antes de finalizar el servicio, tampoco habrá Devolución.",
+                        "Si el huésped no comunica que hará el CHECK OUT, el hotel se reserva el derecho de retirar los objetos personales de la habitación una vez vencida la hora check out.",
+                        "La agencia operadora no se responsabiliza por objetos olvidados en algunos de los tours u hotel."
+                    ]
+                }
+            ]
         }
     ]
 }

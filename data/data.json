@@ -338,7 +338,7 @@
                         "idPromo": 1,
                         "href": "/tours",
                         "slug": "tarapoto-2dias",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                        "altImg": "Premium 2 días Tarapoto"
                     },
                     {
                         "img": "/img/imagenesPromociones/3dias/imagenPromocion.jpg",
@@ -351,7 +351,7 @@
                         "idPromo": 1,
                         "href": "/tours",
                         "slug": "tarapoto-3dias",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                        "altImg": "Premium 3 días Tarapoto"
                     },
                     {
                         "img": "/img/imagenesPromociones/4dias/imagenPromocion.jpg",
@@ -364,7 +364,20 @@
                         "idPromo": 1,
                         "href": "/tours",
                         "slug": "tarapoto-4dias",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                        "altImg": "Premium 4 días Tarapoto"
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/fulldayIca/imagenPromocion.webp",
+                        "titlePart1": "Full Day", 
+                        "titlePart2": "Islas Ballestas",
+                        "duration": "Paracas, Oasis de Huacachina y más",
+                        "price": "S/. 180",
+                        "lowText": "Por persona",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/tours",
+                        "slug": "ica-fullday",
+                        "altImg": "Premium Full Day Ica"
                     }
                 ]
             },
@@ -436,209 +449,6 @@
                 ]
             },
             "order": 95
-        }
-    ],
-    "pagesNosotros": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "EXPLORA EL MUNDO \n",
-                "highLightTitle": "Vive lo Extraordinario",
-                "subTitle": "",
-                "noDivider": true,
-                "highLightSubTitle": "",
-                "description": "Viajes grupales exclusivos, experiencias auténticas\ny recuerdos que transforman tu vida",
-                "img": "/img/imagenesInicio/grupoViaje6.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Nosotros",
-            "href": "#teamShowCaseInicio",
-            "pageName": "TeamShowCase",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#teamShowCaseInicio",
-                "titleHighLigh": "ASPEM ",
-                "title": "OPERADORA",
-                "subTitle": "SOBRE NOSOTROS",
-                "description": "Es una empresa dedicada a promover experiencias de viaje a nivel internacional, impulsando el turismo a través de programas y circuitos organizados que permiten a los viajeros descubrir nuevos destinos y vivir momentos únicos. Participamos activamente en rutas y eventos turísticos de reconocimiento mundial, acercando a más personas a la aventura de viajar y conocer otras culturas.",
-                "typeAnimationText": "left",
-                "pixelsAnimationText": 80,
-                "durationAnimationText": 1000,
-                "delayAnimationText": 0,
-                "peopleDown": true,
-                "imgRight": "/img/imagenesInicio/imagenOurTeam.jpg",
-                "typeAnimationImgRight": "right",
-                "pixelsAnimationImgRight": "80",
-                "durationAnimationImgRight": 1000,
-                "delayAnimationImgRight": 0,
-                
-                "people": []
-            },
-            "order": 4
-        },
-        {
-            "title": "Nuestro Equipo",
-            "href": "#teamPersonsListNosotros",
-            "pageName": "TeamPersonsList",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "title": "CONOCE A NUESTRO EQUIPO",
-                "typeAnimationHeader": "down",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationPersons": 1000,
-                "delayEachAnimationPersons": 200,
-                "persons": [
-                    {
-                        "name": "Samuel Ludeña",
-                        "position": "Gerente General",
-                        "img": "/img/imagenesNosotros/imagenTeam4.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Daisy Clerque",
-                        "position": "Socia Fundadora",
-                        "img": "/img/imagenesNosotros/imagenTeam2.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Nicole Ortiz",
-                        "position": "Gerente de Operaciones",
-                        "img": "/img/imagenesNosotros/NICOLE.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Angel Vidal",
-                        "position": "Ejecutivo de Cuenta",
-                        "img": "/img/imagenesNosotros/ANGEL.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Julio Eslava",
-                        "position": "Diseño Marketing",
-                        "img": "",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "César Gonzales",
-                        "position": "Desarrollador Web",
-                        "img": "",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Samuel Ludeña",
-                        "position": "Presidente de ASPEM",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Daisy Clerque",
-                        "position": "Vicepresidenta de ASPEM",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Yoli Clerque",
-                        "position": "Gerente General",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Jeferson Cansino",
-                        "position": "Gerente de Contabilidad",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Madeline Hueyta",
-                        "position": "Gerente Comercial",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Stephanie Urcia",
-                        "position": "Ejecutiva de Ventas",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Úrsula Molina",
-                        "position": "Ejecutiva de Ventas",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Aixa Valencia",
-                        "position": "Ejecutiva de Ventas",
-                        "img": "/img/imagenesNosotros/defaultPersona.jpg"
-                    },
-                    {
-                        "name": "Eduardo Eduardo",
-                        "position": "Gerente de Marketing",
-                        "img": ""
-                    },
-                    {
-                        "name": "Diego Tarazona",
-                        "position": "Gerente Audio Visuales",
-                        "img": ""
-                    },
-                    {
-                        "name": "Jahir Barazorda",
-                        "position": "Desarrollador Marketing",
-                        "img": ""
-                    },
-                    {
-                        "name": "César Gonzales",
-                        "position": "Desarrollador Web",
-                        "img": ""
-                    }
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Nuestra Información",
-            "href": "#listParrafsWithImgNosotros",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "subTitle": "SOBRE NOSOTROS",
-                        "title": "ASPEM Asociación Peruana de Empresarios",
-                        "article": "ASPEM es una organización comprometida con el impulso y fortalecimiento del empresariado peruano a nivel nacional e internacional. Trabajamos de manera activa en la promoción del crecimiento empresarial, creando espacios reales de conexión, aprendizaje y expansión comercial para empresarios, emprendedores y líderes de diversos sectores.\n\nA través de la organización de misiones empresariales, viajes de negocios y la participación en ferias internacionales, facilitamos el acceso directo a mercados estratégicos, proveedores confiables y oportunidades concretas de importación, exportación y alianzas comerciales. Nuestras experiencias están diseñadas para que los empresarios conozcan de primera mano las tendencias globales, procesos productivos, innovación y modelos de negocio que hoy mueven la economía mundial.\n\nEn ASPEM creemos que los negocios se construyen con información, acompañamiento y relaciones sólidas. Por ello, brindamos una asesoría integral antes, durante y después de cada misión, respaldada por un equipo profesional con experiencia en comercio internacional, logística y gestión empresarial. No solo promovemos viajes, promovemos decisiones estratégicas, crecimiento sostenible y una visión empresarial sin fronteras.\n\nNuestro propósito es conectar a los empresarios con oportunidades reales, reducir barreras de acceso a los mercados internacionales y contribuir al desarrollo económico del país, posicionando al empresario peruano como un actor competitivo en el escenario global.",
-                        "img": "/img/imagenesNosotros/imagenParrafo1.jpg"
-                    },
-                    {
-                        "subTitle": "Expansión Empresarial",
-                        "title": "CONVENIOS Y ALIANZAS ESTRATÉGICAS",
-                        "article": "Como parte de su labor de articulación y proyección internacional, ASPEM ha suscrito convenios de cooperación con diversas entidades y representantes internacionales, con el objetivo de fortalecer el desarrollo empresarial y facilitar el acceso a nuevos mercados para el empresariado peruano. Estas alianzas estratégicas permiten generar espacios de intercambio, colaboración y vinculación directa con actores clave del comercio internacional.\n\nEntre estos acuerdos, destaca la firma de un convenio con representantes de la provincia de Guang'an, orientado a promover el intercambio comercial y crear oportunidades concretas de colaboración para los empresarios peruanos interesados en el mercado asiático.\n\nAsimismo, la suscripción de este acuerdo fue posible gracias al apoyo y gestión del Bank of China, entidad que propició este espacio de encuentro y cooperación, reafirmando la importancia del trabajo conjunto entre instituciones financieras, organismos empresariales y representantes internacionales.\n\nA través de este y otros convenios, ASPEM reafirma su compromiso de consolidar una red sólida de alianzas nacionales e internacionales, brindando respaldo institucional a sus asociados y generando condiciones que favorezcan la expansión empresarial, el fortalecimiento de la competitividad y la integración del empresariado peruano en el escenario global.",
-                        "img": "/img/imagenesNosotros/imagenParrafo2.jpg"
-                    },
-                    {
-                        "subTitle": "Firma de convenio institucional",
-                        "title": "COOPERACIÓN PARA EL DESARROLLO EMPRESARIAL",
-                        "article": "En el marco del evento promocional de la China International Import and Export Fair, ASPEM participó en la firma de un convenio de cooperación institucional, reafirmando su rol como organización comprometida con la promoción del comercio internacional y la apertura de nuevas oportunidades para el empresariado peruano. Esta importante actividad quedó registrada en el material audiovisual del evento, evidenciando el trabajo articulado que ASPEM viene desarrollando a nivel internacional.\n\nEl evento representó un espacio estratégico para el fortalecimiento de vínculos institucionales, el intercambio de información y la generación de relaciones orientadas a facilitar la participación de empresarios peruanos en ferias internacionales de alto impacto. Asimismo, permitió consolidar canales de diálogo enfocados en la cooperación empresarial, la identificación de oportunidades comerciales y el acercamiento a mercados globales.\n\nLa firma de este convenio constituye un paso relevante dentro de la estrategia de internacionalización que ASPEM impulsa de manera sostenida, orientada a brindar respaldo institucional, acceso a plataformas comerciales internacionales y mayores herramientas para la toma de decisiones empresariales.\n\nA través de su participación en este tipo de encuentros, ASPEM continúa posicionándose como un actor clave en la articulación entre el empresariado peruano y los principales escenarios del comercio global, promoviendo una visión de crecimiento, competitividad y proyección internacional para sus asociados.",
-                        "img": "/img/imagenesNosotros/imagenParrafo3.jpg"
-                    }
-                ]
-            },
-            "order": 20
         }
     ],
     "pagesPromociones": [
@@ -717,6 +527,20 @@
                             "href": "/tours/tarapoto-4dias"
                         },
                         "typeAnimation": "right",
+                        "pixelsAnimation": 120
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Un día entero para ti",
+                        "title": "Full Day Paracas - Ica",
+                        "article": "Conoce Ica en su totalidad: Islas Ballestas, balneario de Paracas, bodega de vinos en Ica y el Oasis de la Huacachina con tubulares y sandboard. La forma más completa de conocer Paracas e Ica, incluyendo transporte desde Lima. Paquete completo desde S/. 180 por persona.",
+                        "img": "/img/imagenesPromociones/fulldayIca/listaPromocion.webp",
+                        "buttonMoreInformation": {
+                            "type": "primary",
+                            "text": "Ver Más",
+                            "href": "/tours/ica-fullday"
+                        },
+                        "typeAnimation": "left",
                         "pixelsAnimation": 120
                     }
                 ]
@@ -830,6 +654,19 @@
                         "href": "/tours",
                         "slug": "tarapoto-4dias",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/fulldayIca/imagenPromocion.webp",
+                        "titlePart1": "Full Day", 
+                        "titlePart2": "Islas Ballestas",
+                        "duration": "Paracas, Oasis de Huacachina y más",
+                        "price": "S/. 180",
+                        "lowText": "Por persona",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/tours",
+                        "slug": "ica-fullday",
+                        "altImg": "Premium Full Day Ica"
                     }
                 ]
             },
@@ -845,9 +682,11 @@
             "data":{
                 "isMainH1": true,
                 "isAfterHeader": true,
+                "dontShowPrice": true,
+                "dataFromJson": true,
+
                 "title": "Arma tu Plan con PREMIUM",
                 "description": "Arma un plan a tu medida, escogiendo solo los destinos que más te interesan.",
-                "dataFromJson": true,
                 "labelNoShowDestiny": "Selecciona una Locación para escoger los destinos.",
                 "labelCheckbox": "¿Escoger?",
                 "labelTotalPrice": "Precio Total: ",

@@ -126,7 +126,12 @@ export const BuildPlan = (props) => {
                                         }
                                         <p className="buildPlan-destinys-list-item-info-duration">{props.data.labelDuration}{destChosen.duration}</p>
                                         <p className="buildPlan-destinys-list-item-info-description">{destChosen.description}</p>
-                                        <p className="buildPlan-destinys-list-item-info-price">{destChosen.currencySymbol + destChosen.price}</p>
+                                        {
+                                            props.data.dontShowPrice ?
+                                            ""
+                                            :
+                                            <p className="buildPlan-destinys-list-item-info-price">{destChosen.currencySymbol + destChosen.price}</p>   
+                                        }
                                     </div>
                                     <div className="buildPlan-destinys-list-item-checkbox-container">
                                         <input
@@ -158,7 +163,7 @@ export const BuildPlan = (props) => {
                                         <h4 className="buildPlan-destinys-selected-item-name">{destSelect.name}</h4>
                                     }
                                     <p className="buildPlan-destinys-selected-item-price">
-                                        {destSelect.currencySymbol + destSelect.price}
+                                        {props.data.dontShowPrice ? "" : (destSelect.currencySymbol + destSelect.price)}
                                         <i
                                             className={"buildPlan-destinys-selected-item-deleteIcon " + props.data.iconDelete}
                                             onClick={()=>{
@@ -170,10 +175,15 @@ export const BuildPlan = (props) => {
                                 </div>
                             ))
                         }
-                        <div className="buildPlan-destinys-selected-total">
-                            {/* Cambiar para manejar precios en dolares soles en el futuro */}
-                            <p className="buildPlan-destinys-selected-item-totalPrice">{props.data.labelTotalPrice}{destinys[0].currencySymbol}{sumaTotalPlanes()}</p>
-                        </div>
+                        {
+                            props.data.dontShowPrice ?
+                            ""
+                            :
+                            <div className="buildPlan-destinys-selected-total">
+                                {/* Cambiar para manejar precios en dolares soles en el futuro */}
+                                <p className="buildPlan-destinys-selected-item-totalPrice">{props.data.labelTotalPrice}{destinys[0].currencySymbol}{sumaTotalPlanes()}</p>
+                            </div>
+                        }
                         <a
                             className="buttonPrimary buildPlan-destinys-selected-button"
                             href={
